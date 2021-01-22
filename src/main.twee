@@ -1,0 +1,23 @@
+:: StoryData
+{
+  "ifid": "804D84C2-C4EC-43F4-B034-8B00F6864CAA",
+  "format": "SugarCube",
+  "format-version": "2.33.4"
+}
+
+:: StoryTitle
+Nightmare at McDowell's
+
+:: StoryInit
+<<set $greeter_age to 110>>
+<<set $name to "">>
+<<set $boxfries to 0>>
+<<set $fries to 0>>
+<<set $wire to "">>
+
+:: Start
+You find yourself at the heavy glass front door of McDowell's restaurant. You have no idea how you got here. This is the fifth time this week.
+
+(Are those bullet holes?)
+
+[[Walk in|enter]]

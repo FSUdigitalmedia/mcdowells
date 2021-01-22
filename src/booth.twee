@@ -1,0 +1,21 @@
+:: booth
+You slide yourself onto the chipped and stained plastic bench at the booth in the corner. <<print visited("lobby")>>\
+<<if visited("") lt 2>>
+The fluorescent light above is flickering in a pattern that seems to be Morse code.
+<</if>>
+On the table sits a grease-stained french fry box.
+<<if $fries gt 0>>\
+  <<set $boxfries += $fries>>\
+  <<set $fries to 0>>\
+  You slip the contents of your hand into the cardboard box.
+<</if>>\
+<<if $boxfries eq 0>>
+  You look inside the box and see that it's empty.
+<<else>>
+  The box contains <<print $boxfries>> limp potato fries.
+<</if>>\
+<<if $boxfries lt 10>>\
+  Something compels you to [[head to the counter|counter]].
+<<else>>\
+  The box seems full. And so does your bladder. You [[go to the bathroom|bathroom]]
+<</if>>

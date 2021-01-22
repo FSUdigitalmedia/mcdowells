@@ -1,0 +1,13 @@
+:: counter
+You walk up to the counter and meet the dull gaze of a teenager dressed in a yellow and red polyester vest.
+
+"How can I help you," he squeaks.
+
+"[[I'll take a large french fry|get a fry]]"
+
+:: get a fry
+<<set $fries += 1>>
+He gives you a french fry. Literally, a single large fry.
+You now have <<print $fries>> french fries.
+You start to [[head back to your seat|booth]], bewildered.
+Although, the greeter [[in the lobby|lobby]] looks like she has something to tell you.

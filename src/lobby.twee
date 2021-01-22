@@ -1,0 +1,14 @@
+:: enter
+You enter the lobby of the restaurant. As you stare at the floor and its polk-a-dot pattern of grease drops, an elderly woman (who looks to be about <<print $greeter_age>> years old) walks toward you.
+
+"Welcome to McDowell's, home of the Whomper. What's your name, dear?"  
+<<textbox "$name" "" "lobby" autofocus>>
+
+:: lobby
+The wrinkled greeter stares at you with a glint of recognition.
+
+"Umm. Hi, <<print $name>>?"
+
+[[Head to the counter to order some food|counter]]
+[[Make your way over to the familiar booth in the corner|booth]]
+[[Rush to the bathroom with the OUT OF ORDER sign on the door|bathroom]]
