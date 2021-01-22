@@ -1,6 +1,6 @@
 :: booth
 You slide yourself onto the chipped and stained plastic bench at the booth in the corner.\
-<<if visited("") lt 2>>
+<<if visited() lt 2>>
 The fluorescent light above is flickering in a pattern that seems to be Morse code.
 <</if>>
 On the table sits a grease-stained french fry box.
