@@ -101,7 +101,9 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 	<!-- UUID://804D84C2-C4EC-43F4-B034-8B00F6864CAA// --><tw-storydata name="Nightmare at McDowell&#39;s" startnode="10" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="804D84C2-C4EC-43F4-B034-8B00F6864CAA" zoom="1" format="SugarCube" format-version="2.33.4" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="bathroom" tags="" position="100,100" size="100,100">You walk past the OUT OF ORDER sign and into the bathroom.
 In front of you is a 50-gallon drum with a red label marked //FLAMMABLE// across the front.
 On top of the barrel is a rat&#39;s nest of colored wires and a mickey mouse alarm clock, ticking away the seconds.
-It looks like you have only 10 seconds to disarm the bomb!
+
+!It looks like you have only 10 seconds to disarm the bomb!
+
 A voice in your head says &quot;Chew your way through the &lt;&lt;cycle &quot;$wire&quot;&gt;&gt;
 &lt;&lt;option &quot;RED&quot;&gt;&gt;
 &lt;&lt;option &quot;BLUE&quot;&gt;&gt;
@@ -115,11 +117,12 @@ A voice in your head says &quot;Chew your way through the &lt;&lt;cycle &quot;$w
 &lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="toolate" tags="" position="225,100" size="100,100">@@color:red;
 !You took too long!
 A deafening noise hits you like an Amazon delivery truck before everything goes black. You awake on your back, looking up. A rainstorm of char-broiled hamburgers and buns dots the morning sky.
+You close your eyes and die.
 @@</tw-passagedata><tw-passagedata pid="3" name="doit" tags="" position="350,100" size="100,100">&lt;&lt;timed 3s t8n&gt;&gt;You cut the &lt;&lt;print $wire&gt;&gt; wire.
 &lt;&lt;next 3s t8n&gt;&gt;The clock stops ticking. 
 &lt;&lt;next 3s t8n&gt;&gt;You did it!
 &lt;&lt;next 3s t8n&gt;&gt;&lt;&lt;linkreplace &quot;You are the greatest hero on Earth!&quot;&gt;&gt;Well, you saved one elderly greeter and one teenaged cashier, anyway&lt;&lt;/linkreplace&gt;&gt;
-&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="booth" tags="" position="475,100" size="100,100">You slide yourself onto the chipped and stained plastic bench at the booth in the corner. &lt;&lt;print visited(&quot;lobby&quot;)&gt;&gt;\
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="booth" tags="" position="475,100" size="100,100">You slide yourself onto the chipped and stained plastic bench at the booth in the corner.\
 &lt;&lt;if visited(&quot;&quot;) lt 2&gt;&gt;
 The fluorescent light above is flickering in a pattern that seems to be Morse code.
 &lt;&lt;/if&gt;&gt;
@@ -140,7 +143,7 @@ On the table sits a grease-stained french fry box.
   The box seems full. And so does your bladder. You [[go to the bathroom|bathroom]]
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="counter" tags="" position="600,100" size="100,100">You walk up to the counter and meet the dull gaze of a teenager dressed in a yellow and red polyester vest.
 
-&quot;How can I help you,&quot; he squeaks.
+&quot;How can I help you?&quot; he squeaks.
 
 &quot;[[I&#39;ll take a large french fry|get a fry]]&quot;</tw-passagedata><tw-passagedata pid="6" name="get a fry" tags="" position="725,100" size="100,100">&lt;&lt;set $fries += 1&gt;&gt;
 He gives you a french fry. Literally, a single large fry.

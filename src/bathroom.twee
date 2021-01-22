@@ -2,7 +2,9 @@
 You walk past the OUT OF ORDER sign and into the bathroom.
 In front of you is a 50-gallon drum with a red label marked //FLAMMABLE// across the front.
 On top of the barrel is a rat's nest of colored wires and a mickey mouse alarm clock, ticking away the seconds.
-It looks like you have only 10 seconds to disarm the bomb!
+
+!It looks like you have only 10 seconds to disarm the bomb!
+
 A voice in your head says "Chew your way through the <<cycle "$wire">>
 <<option "RED">>
 <<option "BLUE">>
@@ -19,6 +21,7 @@ A voice in your head says "Chew your way through the <<cycle "$wire">>
 @@color:red;
 !You took too long!
 A deafening noise hits you like an Amazon delivery truck before everything goes black. You awake on your back, looking up. A rainstorm of char-broiled hamburgers and buns dots the morning sky.
+You close your eyes and die.
 @@
 
 :: doit
